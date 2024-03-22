@@ -36,7 +36,7 @@ body {
 }
 
 .content .text{
-    font-size: 1rem;
+    font-size: 0.85rem;
 }
 
 .content .text p{
@@ -44,5 +44,17 @@ body {
 }
 
 .time::before {
-    content: ".";
+    content: "•";
+    margin: 0 4px;
+}
+
+main {
+    padding: 100px 30px 0 200px;
+}
+
+.videos-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    column-gap: 20px;
+    row-gap: 40px;
 }

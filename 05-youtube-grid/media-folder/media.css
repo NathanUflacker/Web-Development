@@ -1,0 +1,15 @@
+h1, p {
+    color: red;
+}
+
+@media screen and (max-width:425px) {
+    h1, p{
+        color: blue;
+    }
+}
+
+@media screen and (min-width:769px) and (max-width:1024px){
+    h1, p{
+        color: green;
+    }
+}
