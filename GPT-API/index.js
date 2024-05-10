@@ -3,9 +3,9 @@
 
 
 // const openai = new OpenAI({
-//     organization:"org-qzsU9lbW27jBN1GWIXz96VVS",
-//     apiKey:"sk-proj-ZmyFkPpxnL4DUFloEwGlT3BlbkFJbIioKdXAbEYDvaSv8bHQ"
-//     // sk-proj-ZmyFkPpxnL4DUFloEwGlT3BlbkFJbIioKdXAbEYDvaSv8bHQ
+//     organization:"",
+//     apiKey:""
+//     // 
 // });
 
 // const chatCompletion = await openai.chat.completions.create({
@@ -26,9 +26,9 @@ import cors from "cors";
 
 
 const openai = new OpenAI({
-    organization:"org-qzsU9lbW27jBN1GWIXz96VVS",
-    apiKey:"sk-proj-ZmyFkPpxnL4DUFloEwGlT3BlbkFJbIioKdXAbEYDvaSv8bHQ"
-    // sk-proj-ZmyFkPpxnL4DUFloEwGlT3BlbkFJbIioKdXAbEYDvaSv8bHQ
+    organization:"",
+    apiKey:""
+    // 
 });
 
 const chatCompletion = await openai.chat.completions.create({
